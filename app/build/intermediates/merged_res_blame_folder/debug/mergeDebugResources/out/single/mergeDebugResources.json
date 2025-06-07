@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.example.culinary.app-debug-31:/layout_item_recipe.xml.flat",
+        "source": "com.example.culinary.app-main-33:/layout/item_recipe.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_ic_home.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_ic_favorite.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/ic_favorite.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/layout_activity_recipe_detail.xml.flat",
+        "source": "com.example.culinary.app-main-33:/layout/activity_recipe_detail.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.culinary.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.culinary.app-main-33:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_ic_favorite_border.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/ic_favorite_border.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_ic_search.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_placeholder_recipe.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/placeholder_recipe.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.example.culinary.app-main-33:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/layout_activity_favorites.xml.flat",
+        "source": "com.example.culinary.app-main-33:/layout/activity_favorites.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.culinary.app-main-33:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/color_bottom_nav_item_color.xml.flat",
+        "source": "com.example.culinary.app-main-33:/color/bottom_nav_item_color.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.culinary.app-main-33:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.culinary.app-debug-31:/layout_activity_search.xml.flat",
+        "source": "com.example.culinary.app-main-33:/layout/activity_search.xml"
+    }
+]
