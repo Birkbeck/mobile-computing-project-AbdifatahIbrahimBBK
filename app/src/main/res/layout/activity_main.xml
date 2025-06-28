@@ -14,12 +14,14 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="@android:color/white">
+            android:background="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Culinary Delights"
+                android:text="Culinary"
                 android:textSize="20sp"
                 android:textStyle="bold"
                 android:textColor="#FF5722"/>
@@ -31,6 +33,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            app:tabPaddingStart="12dp"
+            app:tabPaddingEnd="12dp"
             app:tabTextColor="#757575"
             app:tabSelectedTextColor="#FF5722"
             app:tabIndicatorColor="#FF5722">
@@ -54,23 +60,23 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recipesRecyclerView"
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:padding="8dp"
         app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAddRecipe"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="16dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="150dp"
         android:src="@android:drawable/ic_input_add"
+        android:visibility="visible"
         app:backgroundTint="#FF5722"
-        app:tint="@android:color/white"/>
+        app:tint="@android:color/white" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigation"
@@ -78,6 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:background="@android:color/white"
+        android:elevation="8dp"
         app:menu="@menu/bottom_nav_menu"
         app:itemIconTint="@color/bottom_nav_item_color"
         app:itemTextColor="@color/bottom_nav_item_color"/>

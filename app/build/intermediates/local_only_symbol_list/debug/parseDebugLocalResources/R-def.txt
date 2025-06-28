@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array recipe_categories
 color bottom_nav_item_color
 color ic_launcher_background
 drawable ic_favorite
@@ -8,8 +9,11 @@ drawable ic_home
 drawable ic_launcher_foreground
 drawable ic_search
 drawable placeholder_recipe
+id action_delete_recipe
+id action_edit_recipe
 id appBarLayout
 id bottomNavigation
+id categorySpinner
 id cookingTime
 id difficulty
 id difficultyLevel
@@ -18,8 +22,12 @@ id fabAddRecipe
 id favoriteButton
 id favoriteFab
 id favoritesRecyclerView
+id ingredientsEditText
+id ingredientsInputLayout
 id ingredientsRecyclerView
 id instructions
+id instructionsEditText
+id instructionsInputLayout
 id navigation_favorites
 id navigation_home
 id navigation_search
@@ -28,17 +36,26 @@ id recipeCategory
 id recipeImage
 id recipeName
 id recipeRating
-id recipesRecyclerView
+id recyclerViewAllRecipes
+id saveRecipeButton
 id searchEditText
 id searchInputLayout
 id searchResultsRecyclerView
 id tabLayout
+id titleEditText
+id titleInputLayout
 id toolbar
+id viewPager
+layout activity_add_recipe
 layout activity_favorites
 layout activity_main
 layout activity_recipe_detail
 layout activity_search
+layout fragment_all_recipes
+layout item_ingredient
 layout item_recipe
 menu bottom_nav_menu
+menu menu_recipe_detail
 mipmap ic_launcher
 mipmap ic_launcher_round
+string app_name

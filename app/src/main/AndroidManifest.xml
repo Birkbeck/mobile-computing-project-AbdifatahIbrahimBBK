@@ -19,6 +19,10 @@
         </activity>
 
         <activity
+            android:name=".AddRecipeActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".RecipeDetailActivity"
             android:exported="false" />
 

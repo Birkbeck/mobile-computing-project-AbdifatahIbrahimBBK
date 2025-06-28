@@ -23,7 +23,6 @@
         android:label="Culinary Delights"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.MaterialComponents.DayNight.NoActionBar" >
         <activity
             android:name="com.example.culinary.MainActivity"
@@ -35,6 +34,9 @@
             </intent-filter>
         </activity>
         <activity
+            android:name="com.example.culinary.AddRecipeActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.culinary.RecipeDetailActivity"
             android:exported="false" />
         <activity
@@ -42,6 +44,11 @@
             android:exported="false" />
         <activity
             android:name="com.example.culinary.FavoritesActivity"
+            android:exported="false" />
+
+        <service
+            android:name="androidx.room.MultiInstanceInvalidationService"
+            android:directBootAware="true"
             android:exported="false" />
 
         <provider

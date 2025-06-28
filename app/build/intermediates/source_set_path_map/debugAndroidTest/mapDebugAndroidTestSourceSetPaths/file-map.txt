@@ -1,5 +1,5 @@
-com.example.culinary.test.app-core-1.5.0-0 C:\Users\lanke\.gradle\caches\8.11.1\transforms\6d8fc26ca41b18d5908fc4177173aa06\transformed\core-1.5.0\res
-com.example.culinary.test.app-annotation-experimental-1.3.0-1 C:\Users\lanke\.gradle\caches\8.11.1\transforms\ee8f94fb8d1729033e7c90dd4582ab3d\transformed\annotation-experimental-1.3.0\res
+com.example.culinary.test.app-jetified-annotation-experimental-1.3.0-0 C:\Users\lanke\.gradle\caches\8.11.1\transforms\30dde7db893ca9fcc32ba80c880f831d\transformed\jetified-annotation-experimental-1.3.0\res
+com.example.culinary.test.app-jetified-core-1.5.0-1 C:\Users\lanke\.gradle\caches\8.11.1\transforms\6ee194182235a15a7a2b6cc08d5b74ba\transformed\jetified-core-1.5.0\res
 com.example.culinary.test.app-androidTest-2 C:\Users\lanke\Desktop\Culinary\app\build\generated\res\resValues\androidTest\debug
 com.example.culinary.test.app-mergeDebugAndroidTestResources-3 C:\Users\lanke\Desktop\Culinary\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
 com.example.culinary.test.app-mergeDebugAndroidTestResources-4 C:\Users\lanke\Desktop\Culinary\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir

@@ -4,7 +4,7 @@
             "outputFile": "com.example.culinary.test.app-mergeDebugAndroidTestResources-3:/values-v18/values-v18.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\lanke\\.gradle\\caches\\8.11.1\\transforms\\6d8fc26ca41b18d5908fc4177173aa06\\transformed\\core-1.5.0\\res\\values-v18\\values.xml",
+                    "source": "C:\\Users\\lanke\\.gradle\\caches\\8.11.1\\transforms\\6ee194182235a15a7a2b6cc08d5b74ba\\transformed\\jetified-core-1.5.0\\res\\values-v18\\values.xml",
                     "from": {
                         "startLines": "4,12",
                         "startColumns": "0,0",
